@@ -19,7 +19,7 @@ namespace _03_BadgesClassLibrary
 
             int badgesCount = _badges.Count();
             badgeDictionary.Add(badgeID, doorAccess);
-            bool wasAdded = badgesCount > _badges.Count();
+            bool wasAdded = badgesCount + 1 == _badges.Count();
             return wasAdded;
         }
 
