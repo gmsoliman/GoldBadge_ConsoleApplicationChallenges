@@ -1,0 +1,6 @@
+C:\ElevenFiftyProjects\2-GoldBadge\ConsoleAppChallenges\02_ClaimsClassLibrary\bin\Debug\02_ClaimsClassLibrary.dll
+C:\ElevenFiftyProjects\2-GoldBadge\ConsoleAppChallenges\02_ClaimsClassLibrary\bin\Debug\02_ClaimsClassLibrary.pdb
+C:\ElevenFiftyProjects\2-GoldBadge\ConsoleAppChallenges\02_ClaimsClassLibrary\obj\Debug\02_ClaimsClassLibrary.csprojAssemblyReference.cache
+C:\ElevenFiftyProjects\2-GoldBadge\ConsoleAppChallenges\02_ClaimsClassLibrary\obj\Debug\02_ClaimsClassLibrary.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\2-GoldBadge\ConsoleAppChallenges\02_ClaimsClassLibrary\obj\Debug\02_ClaimsClassLibrary.dll
+C:\ElevenFiftyProjects\2-GoldBadge\ConsoleAppChallenges\02_ClaimsClassLibrary\obj\Debug\02_ClaimsClassLibrary.pdb

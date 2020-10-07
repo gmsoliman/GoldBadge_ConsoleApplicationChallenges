@@ -31,39 +31,6 @@ namespace _02_ClaimsClassLibrary
             return nextClaim;
         }
 
-        //READ (any claim)
-        public Claims GetClaimById(int claimId)
-        {
-            foreach (Claims claim in _claims)
-            {
-                if (claim.ClaimID == claimId)
-                {
-                    return claim;
-                }
-            }
-            return null;
-        }
-
-        //UPDATE
-        public bool ChangeClaim(int claimToBeChanged, Claims updatedClaim)
-        {
-            Claims oldClaim = GetClaimById(claimToBeChanged);
-            if (oldClaim != null)
-            {
-                oldClaim.ClaimID = updatedClaim.ClaimID;
-                oldClaim.ClaimType = updatedClaim.ClaimType;
-                oldClaim.Description = updatedClaim.Description;
-                oldClaim.ClaimAmount = updatedClaim.ClaimAmount;
-                oldClaim.DateOfIncident = updatedClaim.DateOfIncident;
-                oldClaim.DateOfClaim = updatedClaim.DateOfClaim;
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-        }
-
         //DELETE
         public bool DeleteClaimFromQueue()
         {
