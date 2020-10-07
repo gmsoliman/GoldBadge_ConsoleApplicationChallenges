@@ -1,0 +1,6 @@
+C:\ElevenFiftyProjects\2-GoldBadge\ConsoleAppChallenges\01_MenuClassLibrary\bin\Debug\01_MenuClassLibrary.dll
+C:\ElevenFiftyProjects\2-GoldBadge\ConsoleAppChallenges\01_MenuClassLibrary\bin\Debug\01_MenuClassLibrary.pdb
+C:\ElevenFiftyProjects\2-GoldBadge\ConsoleAppChallenges\01_MenuClassLibrary\obj\Debug\01_MenuClassLibrary.csprojAssemblyReference.cache
+C:\ElevenFiftyProjects\2-GoldBadge\ConsoleAppChallenges\01_MenuClassLibrary\obj\Debug\01_MenuClassLibrary.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\2-GoldBadge\ConsoleAppChallenges\01_MenuClassLibrary\obj\Debug\01_MenuClassLibrary.dll
+C:\ElevenFiftyProjects\2-GoldBadge\ConsoleAppChallenges\01_MenuClassLibrary\obj\Debug\01_MenuClassLibrary.pdb

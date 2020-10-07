@@ -36,12 +36,9 @@ namespace _01_MenuProgram
                         AddToMenu();
                         break;
                     case "3":
-                        ChangeItemOnMenu();
-                        break;
-                    case "4":
                         DeleteFromMenu();
                         break;
-                    case "5":
+                    case "4":
                         continueToRun = false;
                         break;
                     default:
@@ -61,13 +58,14 @@ namespace _01_MenuProgram
             List<Menu> fullMenu = _menuRepo.GetFullMenu();
 
             //Display each item's values
+            Console.WriteLine($"{"Meal#",-10}{"Name",-15}{"Description",-30}{"Ingredients",-40}{"Price",10}\n");
             foreach (Menu item in fullMenu)
             {
-                Console.WriteLine($"{item.Number} {item.Name} {item.Description} {item.Ingredients} {item.Price}");
+                Console.WriteLine($"{item.Number,-10}{item.Name,-15}{item.Description,-30}{item.Ingredients,-40}${item.Price,10}");
             }
 
             //Pause program
-            Console.WriteLine("Press any key to continue.....");
+            Console.WriteLine("\nPress any key to continue.....");
             Console.ReadKey();
         }
         private void AddToMenu()
@@ -98,10 +96,6 @@ namespace _01_MenuProgram
             Console.WriteLine($"{itemValue.Number}. {itemValue.Name} was added to the menu!\n" +
                 "Press any key to continue.....");
             Console.ReadKey();
-        }
-        private void ChangeItemOnMenu()
-        {
-
         }
         private void DeleteFromMenu()
         {

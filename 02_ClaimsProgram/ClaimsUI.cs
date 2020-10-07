@@ -49,18 +49,20 @@ namespace _02_ClaimsProgram
         {
             Console.Clear();
             Queue<Claims> claimsQueue = _claimsRepo.GetAllClaims();
+            Console.WriteLine($"{"ClaimID",-5} {"Type",-10} {"Description",-30} {"Amount",-15} {"Date of Incident",-30} {"Date of Claim",-30} {"Is Valid",-5}\n");
             foreach (Claims claim in claimsQueue)
             {
-                Console.WriteLine($"{claim.ClaimID} {claim.ClaimType} {claim.Description} {claim.ClaimAmount} {claim.DateOfIncident} {claim.DateOfClaim} {claim.IsValid}");
+                Console.WriteLine($"{claim.ClaimID,-5} {claim.ClaimType,-10} {claim.Description,-30} ${claim.ClaimAmount,-15} {claim.DateOfIncident,-30} {claim.DateOfClaim,-30} {claim.IsValid,-5}");
             }
-            Console.WriteLine("Press any key to return to the main menu.....");
+            Console.WriteLine("\nPress any key to return to the main menu.....");
             Console.ReadKey();
         }
         private void GetNextClaimInQueue()
         {
             Console.Clear();
             Claims nextInQueue = _claimsRepo.GetNextClaim();
-            Console.WriteLine($"{nextInQueue.ClaimID} {nextInQueue.ClaimType} {nextInQueue.Description} {nextInQueue.ClaimAmount} {nextInQueue.DateOfIncident} {nextInQueue.DateOfClaim} {nextInQueue.IsValid}\n" +
+            Console.WriteLine($"{"ClaimID",-5} {"Type",-10} {"Description",-30} {"Amount",-15} {"Date of Incident",-30} {"Date of Claim",-30} {"Is Valid",-5}\n");
+            Console.WriteLine($"{nextInQueue.ClaimID,-5} {nextInQueue.ClaimType,-10} {nextInQueue.Description,-30} ${nextInQueue.ClaimAmount,-15} {nextInQueue.DateOfIncident,-30} {nextInQueue.DateOfClaim,-30} {nextInQueue.IsValid,-5}\n" +
                 "Do you want to deal with this claim now(y/n)?");
             var userResponse = Console.ReadLine();
             switch (userResponse)
@@ -69,7 +71,7 @@ namespace _02_ClaimsProgram
                     DequeueClaim();
                     break;
                 case "n":
-                    Console.WriteLine($"Claim: {nextInQueue.ClaimID} was placed back in the queue. \n" +
+                    Console.WriteLine($"Claim ID:{nextInQueue.ClaimID} was placed back in the queue. \n" +
                         "Press any key to return to the main menu.....");
                     Console.ReadKey();
                     break;
@@ -77,7 +79,7 @@ namespace _02_ClaimsProgram
             void DequeueClaim()
             {
                 _claimsRepo.DeleteClaimFromQueue();
-                Console.WriteLine($"Claim: {nextInQueue.ClaimID} was removed from the queue. \n" +
+                Console.WriteLine($"Claim ID:{nextInQueue.ClaimID} was removed from the queue. \n" +
                     "Once you are finished with this claim, press any key to return to the main menu.....");
                 Console.ReadKey();
             }
@@ -88,7 +90,7 @@ namespace _02_ClaimsProgram
             Console.WriteLine("\nPlease enter a ClaimID number");
             newClaim.ClaimID = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("\nSelect a claim type: \n" +
+            Console.WriteLine("\nSelect a claim type by entering the number of the corresponding type \n" +
                 "1) Car \n" +
                 "2) Home \n" +
                 "3) Theft");

@@ -35,27 +35,6 @@ namespace _01_MenuClassLibrary
             }
             return null;
         }
-
-        //UPDATE
-        public bool ChangeMenuItem(int itemToBeChanged, Menu updatedItem)
-        {
-            Menu oldItem = GetItemByNumber(itemToBeChanged);
-            if (oldItem != null)
-            {
-                oldItem.Number = updatedItem.Number;
-                oldItem.Name = updatedItem.Name;
-                oldItem.Description = updatedItem.Description;
-                oldItem.Ingredients = updatedItem.Ingredients;
-                oldItem.Price = updatedItem.Price;
-                return true;
-
-            }
-            else
-            {
-                return false;
-            }
-        }
-
         //DELETE
         public bool DeleteItemFromMenu(Menu itemToBeDeleted)
         {

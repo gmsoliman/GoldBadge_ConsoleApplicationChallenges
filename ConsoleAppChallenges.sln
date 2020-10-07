@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_ClaimsTest", "02_ClaimsT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_ClaimsProgram", "02_ClaimsProgram\02_ClaimsProgram.csproj", "{0884FA14-CA10-4170-8A4A-2BB06C35A794}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_BadgesClassLibrary", "03_BadgesClassLibrary\03_BadgesClassLibrary.csproj", "{60261687-C2FB-43AB-9D7A-309FC880DEBE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{0884FA14-CA10-4170-8A4A-2BB06C35A794}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0884FA14-CA10-4170-8A4A-2BB06C35A794}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0884FA14-CA10-4170-8A4A-2BB06C35A794}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60261687-C2FB-43AB-9D7A-309FC880DEBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60261687-C2FB-43AB-9D7A-309FC880DEBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60261687-C2FB-43AB-9D7A-309FC880DEBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60261687-C2FB-43AB-9D7A-309FC880DEBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,10 @@
+C:\ElevenFiftyProjects\2-GoldBadge\ConsoleAppChallenges\01_MenuProgram\bin\Debug\01_MenuProgram.exe.config
+C:\ElevenFiftyProjects\2-GoldBadge\ConsoleAppChallenges\01_MenuProgram\bin\Debug\01_MenuProgram.exe
+C:\ElevenFiftyProjects\2-GoldBadge\ConsoleAppChallenges\01_MenuProgram\bin\Debug\01_MenuProgram.pdb
+C:\ElevenFiftyProjects\2-GoldBadge\ConsoleAppChallenges\01_MenuProgram\bin\Debug\01_MenuClassLibrary.dll
+C:\ElevenFiftyProjects\2-GoldBadge\ConsoleAppChallenges\01_MenuProgram\bin\Debug\01_MenuClassLibrary.pdb
+C:\ElevenFiftyProjects\2-GoldBadge\ConsoleAppChallenges\01_MenuProgram\obj\Debug\01_MenuProgram.csprojAssemblyReference.cache
+C:\ElevenFiftyProjects\2-GoldBadge\ConsoleAppChallenges\01_MenuProgram\obj\Debug\01_MenuProgram.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\2-GoldBadge\ConsoleAppChallenges\01_MenuProgram\obj\Debug\01_MenuProgram.csproj.CopyComplete
+C:\ElevenFiftyProjects\2-GoldBadge\ConsoleAppChallenges\01_MenuProgram\obj\Debug\01_MenuProgram.exe
+C:\ElevenFiftyProjects\2-GoldBadge\ConsoleAppChallenges\01_MenuProgram\obj\Debug\01_MenuProgram.pdb
